@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shopify-wbr"
+version = "0.1.0"
+description = "Turn a Shopify orders export into a weekly business review (HTML/PDF), with an optional LLM-written summary."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Siddharth Kumar" }]
+requires-python = ">=3.10"
+dependencies = []
+keywords = ["shopify", "ecommerce", "wbr", "analytics", "llm", "reporting"]
+
+[project.urls]
+Homepage = "https://github.com/madebysid/shopify-wbr"
+Author = "https://sidailab.com"
+
+[project.scripts]
+wbr = "shopify_wbr.cli:main"
+
+[tool.setuptools]
+packages = ["shopify_wbr"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

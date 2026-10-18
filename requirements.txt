@@ -1,0 +1,2 @@
+# shopify-wbr has no runtime dependencies (Python 3.10+ standard library only).
+# PDF export uses a locally installed Chrome/Chromium if available.
