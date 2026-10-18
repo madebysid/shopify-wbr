@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "shopify-wbr"
-version = "0.1.0"
+version = "0.2.0"
 description = "Turn a Shopify orders export into a weekly business review (HTML/PDF), with an optional LLM-written summary."
 readme = "README.md"
 license = { text = "MIT" }
@@ -14,7 +14,8 @@ dependencies = []
 keywords = ["shopify", "ecommerce", "wbr", "analytics", "llm", "reporting"]
 
 [project.urls]
-Homepage = "https://github.com/madebysid/shopify-wbr"
+Homepage = "https://madebysid.github.io/shopify-wbr/"
+Source = "https://github.com/madebysid/shopify-wbr"
 Author = "https://sidailab.com"
 
 [project.scripts]

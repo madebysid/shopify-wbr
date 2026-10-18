@@ -4,7 +4,7 @@ Everything here is made up: a fictional store, fake products and
 example.com customer emails. Deterministic (seeded) so the sample report is
 reproducible.
 
-    python scripts/generate_sample_data.py
+    python cli/scripts/generate_sample_data.py
 """
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ import random
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "sample"
+OUT = Path(__file__).resolve().parents[2] / "site" / "sample"
 START = date(2026, 8, 24)  # Monday
 WEEKS = 8
 
