@@ -1,0 +1,12 @@
+{
+  "name": "shopify-wbr",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Shopify weekly business review that runs entirely in the browser.",
+  "scripts": {
+    "test": "node --test test/",
+    "serve": "python3 -m http.server 8000 --directory site"
+  },
+  "license": "MIT"
+}

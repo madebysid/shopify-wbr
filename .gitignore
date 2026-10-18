@@ -8,3 +8,4 @@ dist/
 wbr.html
 wbr.pdf
 .env
+node_modules/
